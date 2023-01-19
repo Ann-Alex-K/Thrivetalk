@@ -109,16 +109,33 @@
 
 @media only screen and (max-width: 800px) {
 
+    .info-wrapper>.container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .info-wrapper>.container>* {
+        flex: 1 1 580px;
+    }
+
     .info-img {
+        position: static;
+        display: block;
+        background-image: url(https://raw.githubusercontent.com/Ann-Alex-K/Thrivetalk-Landing-page/main/assets/christopher-campbell-40367.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 -2em 4em -2em;
+        max-width: 120%;
+    }
+
+    .info-img>img {
         display: none;
     }
 
     .info-text {
         margin: 0 1em 0 1em;
-    }
-
-    .info-text {
-        padding: 151px 0 5em 0;
+        padding: 151px 0 4em 0;
     }
 
     .info-text>p {
@@ -174,9 +191,19 @@
         font-size: 20px;
     }
 
+    .info-wrapper>.container>* {
+        flex: 1 1 400px;
+    }
+
     .info-text {
         padding-top: 5em;
         row-gap: 2em;
+        padding-bottom: 2em;
+    }
+
+    .info-img {
+        max-height: 27em;
+        margin: 0 -2em 0 -2em;
     }
 
     .about-wrapper {
