@@ -528,7 +528,7 @@ button>a {
     cursor: pointer;
     color: #FAB63E;
     height: 43px;
-    max-width: 135px;
+    max-width: 150px;
 }
 
 .should_now-text>h4::after {
@@ -542,7 +542,7 @@ button>a {
 
 .should_now-text>h4:hover:after,
 .should_now-text>h4:focus:after {
-    width: 97%;
+    width: 88%;
 }
 
 
@@ -608,7 +608,7 @@ button>a {
     color: #62D0DF;
     cursor: pointer;
     display: inline-block;
-    max-width: 135px;
+    max-width: 150px;
 }
 
 .assesment-text>h4::after {
@@ -622,7 +622,7 @@ button>a {
 
 .assesment-text>h4:hover:after,
 .assesment-text>h4:focus:after {
-    width: 97%;
+    width: 88%;
 }
 
 
