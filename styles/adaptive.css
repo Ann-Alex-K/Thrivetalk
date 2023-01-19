@@ -1,0 +1,291 @@
+@media only screen and (max-width: 1200px) {
+
+    .header-content {
+        margin: 0 1em 0 1em;
+    }
+
+    .intro-img {
+        display: none;
+    }
+
+    .intro-text {
+        margin: 0 1em 0 1em;
+    }
+
+    .intro-text>h1 {
+        max-width: 100%;
+
+    }
+
+    .intro-text>p {
+        max-width: 100%;
+
+    }
+
+    .info-wrapper {
+        overflow: hidden;
+    }
+
+    .info-img {
+        right: -20%;
+    }
+
+    .info-text {
+        margin: 0 25em 0 1em;
+    }
+
+
+    .about-title {
+        justify-content: space-evenly;
+        margin: 0 1em 75px 1em;
+    }
+
+    .about-title>h4 {
+        margin: 6px 20px 0 0;
+    }
+
+    .about-cards hr {
+        margin: 0 10px 23px 20px;
+    }
+
+    .should_now-img {
+        width: 380px;
+        overflow: hidden;
+    }
+
+    .should_now-text {
+        margin-left: 20px;
+        padding: 103px 50px 42px 359px;
+    }
+
+    .should_now-text>h5,
+    .assesment-text>h5 {
+        margin-bottom: 85px;
+    }
+
+    .should_now-text>p {
+        margin-bottom: 92px;
+    }
+
+    .assesment-img {
+        display: none;
+    }
+
+    .assesment-text {
+        padding: 103px 0 42px 0
+    }
+
+    .contact-img {
+        display: none;
+    }
+
+    .contact-cards {
+        margin-left: 0;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-cards>* {
+        margin: 0;
+        text-align: center;
+    }
+
+    .contact-card {
+        padding: 32px 16px 25px 16px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .info-img {
+        right: -35%;
+    }
+
+    .about-cards>* {
+        padding-left: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .info-img {
+        display: none;
+    }
+
+    .info-text {
+        margin: 0 1em 0 1em;
+    }
+
+    .info-text {
+        padding: 151px 0 5em 0;
+    }
+
+    .info-text>p {
+        max-width: 100%;
+    }
+
+    .service-cards>* {
+        padding-left: 10px;
+    }
+
+    .about-cards>* {
+        padding-left: 5px;
+    }
+
+    .should_now-img {
+        display: none;
+    }
+
+    .should_now-text {
+        margin-left: 10px;
+        padding: 103px 0 42px 0;
+    }
+
+    .should_now-text>h5 {
+        margin-bottom: 115px;
+    }
+
+}
+
+@media only screen and (max-width: 620px) {
+
+    .header-content {
+        padding: 26px 0 10px 0;
+        margin: 0;
+    }
+
+    .header-btn>button {
+        width: 100px;
+        height: 50px;
+        font-size: 13px;
+    }
+
+    ul {
+        font-size: 12px;
+    }
+
+    li {
+        display: inline-block;
+        padding: 0 5px;
+    }
+
+    .header-logo>h3 {
+        font-size: 20px;
+    }
+
+    .info-text {
+        padding-top: 5em;
+        row-gap: 2em;
+    }
+
+    .about-wrapper {
+        margin-top: 50px;
+    }
+
+    .about-title {
+        row-gap: 2em;
+        flex-direction: column;
+    }
+
+    .about-title>h4 {
+        margin: 6px 0 0 0;
+    }
+
+    .about-cards p {
+        text-align: center;
+        margin: auto;
+    }
+
+    .about-cards {
+        margin-bottom: 80px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .about-cards>* {
+        width: 100%;
+        height: 280px;
+        padding-top: 40px;
+    }
+
+    .about-cards hr {
+        margin: 23px 1em 23px 4em;
+        max-width: 100%;
+    }
+
+    .service-cards p {
+        text-align: center;
+        margin: auto
+    }
+
+    .service-cards {
+        margin-bottom: 40px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .service-cards>* {
+        width: 100%;
+        height: 280px;
+        padding-top: 40px;
+    }
+
+    .service-cards hr {
+        margin: 23px 0 30px 40px;
+    }
+
+    .about-service>* {
+        padding: 30px 45px 30px 45px;
+    }
+
+    .should_now-text>h5 {
+        margin-bottom: 65px;
+    }
+
+    .should_now-text {
+        padding: 42px 0 42px 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .should_now-text>p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .assesment-text {
+        text-align: center;
+        align-items: center;
+    }
+
+    .assesment-text>h5 {
+        margin-bottom: 65px;
+    }
+
+    .assesment-text>h2 {
+        margin-bottom: 50px;
+        font-size: 42px;
+        line-height: 54px;
+    }
+
+    .assesment-text>p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .contact-cards {
+        margin: 0;
+    }
+
+    .contact-card {
+        padding: 20px 16px 0 16px;
+    }
+
+    .contact-card>h4 {
+        height: 8px;
+    }
+
+}
