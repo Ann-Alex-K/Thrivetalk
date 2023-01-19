@@ -167,14 +167,19 @@
 
 @media only screen and (max-width: 620px) {
 
+       .header-wrapper>.container{
+        padding: 0 17px;
+    }
+
+
     .header-content {
-        padding: 26px 0 10px 0;
+        padding: 16px 0 10px 0;
         margin: 0;
     }
 
     .header-btn>button {
         width: 100px;
-        height: 50px;
+        height: 30px;
         font-size: 13px;
     }
 
@@ -351,6 +356,23 @@
 
     .contact-card>h4 {
         height: 8px;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .header-wrapper>.container{
+        padding: 0 5px;
+    }
+
+    .header-btn>button {
+        width: 80px;
+        font-size: 11px;
+    }
+
+    .header-logo>h3 {
+        font-size: 14px;
     }
 
 }
