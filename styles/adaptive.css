@@ -155,8 +155,9 @@
         background-image: url(https://raw.githubusercontent.com/Ann-Alex-K/Thrivetalk-Landing-page/main/assets/christopher-campbell-40367.png);
         background-size: cover;
         background-repeat: no-repeat;
-        margin: 0 -2em 4em -2em;
+        margin: -1em -2em 0 -2em;
         max-width: 120%;
+        
     }
 
     .info-img>img {
