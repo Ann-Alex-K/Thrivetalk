@@ -75,14 +75,12 @@
         padding: 103px 0 42px 0
     }
 
-    .contact-img {
-        display: none;
-    }
-
     .contact-cards {
+        z-index: 1;
         margin-left: 0;
         text-align: center;
         flex-wrap: wrap;
+        display: flex;
     }
 
     .contact-cards>* {
@@ -94,6 +92,33 @@
         padding: 32px 16px 25px 16px;
     }
 
+    .contact-wrapper>.container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .contact-wrapper>.container>* {
+        flex: 1 1 380px;
+    }
+
+    .contact-img {
+        position: static;
+        display: block;
+        background-image: url(https://raw.githubusercontent.com/Ann-Alex-K/Thrivetalk-Landing-page/main/assets/autumn-goodman-242825.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: -7em -2em 0 -2em;
+        min-height: 580px;
+        max-width: 110%;
+    }
+
+    .contact-img>img {
+        display: none;
+    }
+
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -103,6 +128,11 @@
 
     .about-cards>* {
         padding-left: 15px;
+    }
+
+    .contact-img {
+        margin: -5em -2em 0 -2em;
+        min-height: 480px;
     }
 
 }
@@ -162,7 +192,10 @@
     .should_now-text>h5 {
         margin-bottom: 115px;
     }
-
+    
+    .contact-img {
+        min-height: 380px;
+    }
 }
 
 @media only screen and (max-width: 620px) {
@@ -358,6 +391,12 @@
         height: 8px;
     }
 
+    .contact-img {
+        min-height: auto;
+        margin: -2em -4em 0 -5em;
+        max-width: 130%;
+    }
+
 }
 
 @media only screen and (max-width: 420px) {
@@ -373,6 +412,12 @@
 
     .header-logo>h3 {
         font-size: 14px;
+    }
+
+    .contact-img {
+        margin: -3em -2em 0 -8em;
+        align-items: center;
+        max-width: 170%;
     }
 
 }
