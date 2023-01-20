@@ -1,4 +1,4 @@
-# Thrivetalk-Landing-page
+# Thrivetalk
 
 ## See the interactive example of the project:
 
