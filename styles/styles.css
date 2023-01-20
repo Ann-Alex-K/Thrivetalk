@@ -377,6 +377,30 @@ button>a {
     background: #0052C1;
 }
 
+.card:nth-child(1):hover {
+    background-image: url(https://raw.githubusercontent.com/Ann-Alex-K/Thrivetalk-Landing-page/main/assets/card1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card:nth-child(2):hover {
+    background-image: url(https://raw.githubusercontent.com/Ann-Alex-K/Thrivetalk-Landing-page/main/assets/card2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card:nth-child(3):hover {
+    background-image: url(https://raw.githubusercontent.com/Ann-Alex-K/Thrivetalk-Landing-page/main/assets/card3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card:nth-child(4):hover {
+    background-image: url(https://raw.githubusercontent.com/Ann-Alex-K/Thrivetalk-Landing-page/main/assets/card4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 /* service-cards */
 
