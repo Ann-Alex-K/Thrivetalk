@@ -2,7 +2,7 @@
 
 ## See the interactive example of the project:
 
-https://ann-alex-k.github.io/Thrivetalk-Landing-page/
+https://ann-alex-k.github.io/Thrivetalk
 
 ## Main functions
 
