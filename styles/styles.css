@@ -55,7 +55,7 @@ a {
     justify-content: space-between;
     z-index: 10;
     align-items: center;
-    padding: 26px 0 26px 0;
+    padding: 26px 0 26px 60px;
 }
 
 .header-logo>h3 {
@@ -125,7 +125,8 @@ button>a {
 
 .intro-wrapper {
     background: #F4F9E2;
-    padding-top: 151px;
+    padding-top: 200px;
+    padding-bottom: 75px;
 }
 
 .intro-text {
@@ -133,7 +134,7 @@ button>a {
     flex-direction: column;
     justify-content: space-evenly;
     row-gap: 5em;
-    padding-bottom: 5em;
+    padding: 0 0 0 60px;
 }
 
 .intro-text>h3 {
@@ -222,12 +223,13 @@ button>a {
     position: absolute;
 }
 
+
 .back_white_blok {
     top: 0;
     right: 0;
     position: absolute;
     width: 323px;
-    height: 100%;
+    height: 110%;
     background: #ffffff;
     margin-top: 17em;
 }
@@ -237,13 +239,15 @@ button>a {
 .info-wrapper {
     background: #62D0DF;
     position: relative;
+    overflow: hidden;
 }
 
 .info-text {
-    padding: 151px 0 5em 0;
+    padding: 151px 0 95px 60px;
     display: flex;
     flex-direction: column;
     row-gap: 5em;
+    max-width: 600px;
 }
 
 .info-text>h2 {
@@ -264,7 +268,7 @@ button>a {
 .info-img {
     position: absolute;
     top: 0;
-    right: 0;
+    right: -2%;
     height: 100%;
     overflow: hidden;
 }
@@ -272,7 +276,6 @@ button>a {
 .info-img>img {
     width: 100%;
     height: 100%;
-
 }
 
 /* about */

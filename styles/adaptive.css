@@ -19,7 +19,6 @@
 
     .intro-text>p {
         max-width: 100%;
-
     }
 
     .info-wrapper {
@@ -27,7 +26,7 @@
     }
 
     .info-img {
-        right: -20%;
+        right: -25%;
     }
 
     .info-text {
@@ -122,9 +121,20 @@
 }
 
 @media only screen and (max-width: 900px) {
+
+    .intro-text {
+        row-gap: 5em;
+        padding: 0;
+    }
+
     .info-img {
         right: -35%;
     }
+
+    .info-text {
+        padding: 151px 0 140px 0;
+    }
+
 
     .about-cards>* {
         padding-left: 15px;
@@ -135,9 +145,11 @@
         min-height: 480px;
     }
 
+
 }
 
 @media only screen and (max-width: 800px) {
+
 
     .info-wrapper>.container {
         display: flex;
@@ -157,7 +169,7 @@
         background-repeat: no-repeat;
         margin: -1em -2em 0 -2em;
         max-width: 120%;
-        
+
     }
 
     .info-img>img {
@@ -193,7 +205,7 @@
     .should_now-text>h5 {
         margin-bottom: 115px;
     }
-    
+
     .contact-img {
         min-height: 380px;
     }
@@ -201,10 +213,9 @@
 
 @media only screen and (max-width: 620px) {
 
-       .header-wrapper>.container{
+    .header-wrapper>.container {
         padding: 0 17px;
     }
-
 
     .header-content {
         padding: 16px 0 10px 0;
@@ -228,6 +239,10 @@
 
     .header-logo>h3 {
         font-size: 20px;
+    }
+
+    .intro-wrapper {
+        padding-top: 141px;
     }
 
     .info-wrapper>.container>* {
@@ -402,7 +417,7 @@
 
 @media only screen and (max-width: 420px) {
 
-    .header-wrapper>.container{
+    .header-wrapper>.container {
         padding: 0 5px;
     }
 
