@@ -655,20 +655,19 @@ button>a {
 .contact-img {
     overflow: hidden;
     position: absolute;
-    height: 378px;
     top: 0%;
     left: 0%;
 }
 
 .contact-wrapper {
     position: relative;
+    overflow: hidden;
 }
 
 .contact-cards {
     display: flex;
     margin-left: 550px;
     gap: 2em;
-
     padding-top: 4em;
     padding-bottom: 3em;
 }
