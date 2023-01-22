@@ -299,7 +299,7 @@ button>a {
     margin-bottom: 76px;
 }
 
-.about-title>h4 {
+.about-title>span {
     font-size: 16px;
     line-height: 23px;
     letter-spacing: 0.06em;
@@ -329,7 +329,7 @@ button>a {
 }
 
 .about-cards hr {
-    max-width: 255px;
+    max-width: 100%;
     border: none;
     color: #fff;
     background-color: #fff;
@@ -527,7 +527,7 @@ button>a {
     flex-direction: column;
 }
 
-.should_now-text>h5 {
+.should_know {
     font-size: 16px;
     line-height: 12px;
     letter-spacing: 0.06em;
@@ -548,7 +548,7 @@ button>a {
     color: #6CD3E1;
 }
 
-.should_now-text>h4 {
+.should_now-text>.get_help {
     font-size: 16px;
     line-height: 23px;
     letter-spacing: 0.1em;
@@ -558,7 +558,7 @@ button>a {
     max-width: 150px;
 }
 
-.should_now-text>h4::after {
+.should_now-text>.get_help::after {
     display: block;
     content: "";
     height: 1.5px;
@@ -567,16 +567,16 @@ button>a {
     transition: 0.3s ease-in-out;
 }
 
-.should_now-text>h4:hover:after,
-.should_now-text>h4:focus:after {
-    width: 88%;
+.should_now-text>.get_help:hover:after,
+.should_now-text>.get_help:focus:after {
+    width: 89%;
 }
 
 
 /* assesment */
 
 .assesment-wrapper {
-    margin-top: 3px;
+    overflow: hidden;
     position: relative;
     background: #22356F;
 }
@@ -589,23 +589,19 @@ button>a {
     height: 100%;
 }
 
-.assesment-content {
-    padding: 103px 551px 42px 41px
-}
-
 .assesment-text {
     display: flex;
     flex-direction: column;
     padding: 103px 551px 42px 41px
 }
 
-.assesment-text>h5 {
+.contact {
     height: 14px;
     font-size: 16px;
     line-height: 12px;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    margin-bottom: 230px;
+    margin-bottom: 223px;
 }
 
 .assesment-text>h2 {
@@ -625,8 +621,8 @@ button>a {
     letter-spacing: -0.005em;
 }
 
-.assesment-text>h4 {
-    height: 36.1px;
+.assesment-text>.get_help {
+    height: 43px;
     font-size: 16px;
     line-height: 23px;
     display: flex;
@@ -638,7 +634,7 @@ button>a {
     max-width: 150px;
 }
 
-.assesment-text>h4::after {
+.assesment-text>.get_help::after {
     display: block;
     content: "";
     height: 1.5px;
@@ -647,9 +643,9 @@ button>a {
     transition: 0.3s ease-in-out;
 }
 
-.assesment-text>h4:hover:after,
-.assesment-text>h4:focus:after {
-    width: 88%;
+.assesment-text>.get_help:hover:after,
+.assesment-text>.get_help:focus:after {
+    width: 89%;
 }
 
 
